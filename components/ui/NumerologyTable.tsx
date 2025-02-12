@@ -31,9 +31,11 @@ export default function NumerologyTable({
       <p><strong>Name Number:</strong> {nameNumber}</p>
       <p><strong>Life Path Number:</strong> {lifePath}</p>
       <p><strong>Radix Number:</strong> {radix}</p>
-
-      <h3 className="mt-4 text-lg font-semibold">Loshu Grid</h3>
-      <LoshuGrid grid={loshuGrid} />
+      <div className="my-5">
+        <h3 className="mt-4 text-lg font-semibold my-5">Loshu Grid</h3>
+        <LoshuGrid grid={loshuGrid} />
+      </div>
+      
     </div>
   );
 }
