@@ -1,4 +1,4 @@
-import _ from "lodash";
+// import _ from "lodash";
 
 // Function to calculate numerology number from name
 export function calculateNameNumber(name: string): number {
